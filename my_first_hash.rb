@@ -32,7 +32,7 @@ def adding
                   "oil paintings" => 3
                  }
   # add 2 muskets to the shipping_manifest hash below
-  shipping_manifest ["oil paintings"] = shipping_manifest[oil paintings] += 2
+  shipping_manifest ["oil paintings"] = {shipping_manifest[oil paintings] += 2}
 
 
   # add 4 gun powder to the shipping_manifest hash below
